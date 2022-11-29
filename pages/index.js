@@ -9,6 +9,6 @@ export default function Home() {
         Parcelas y Terrenos
       </h1><Image
           src={destacada}
-          alt="Picture of the author" /></>
+          alt="parcela-melipilla" /></>
     );
   }
