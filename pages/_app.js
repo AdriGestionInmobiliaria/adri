@@ -1,6 +1,6 @@
 
 // import layout  components form components folder
-import Layout from "../Components/Layout";
+import Layout from "../Components/layout";
 export default function MyApp({ Component, pageProps }) {
   return (
     <Layout>
