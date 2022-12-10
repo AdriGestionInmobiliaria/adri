@@ -53,7 +53,7 @@ export default function App() {
               <Image src={destacada2} layout="responsive" alt="Parcela San antonio" />
             </SwiperSlide>
           </Swiper>
-            <h1 className="text-2xl md:text-base">Parcelas "Estero el Yali", Santo Domingo</h1>
+            <h1 className="text-2xl md:text-base">Parcelas Estero el Yali, Santo Domingo</h1>
             <ul class="list-disc p-4">
               <li>Sector: Agua Santa</li>
               <li>5.000 m²</li>
