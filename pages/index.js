@@ -22,14 +22,14 @@ export default function App() {
   return (
     <>
       <div className="font-mono">
-        <div className="p-4 text-black bg-amber-100" >
-          <div className=" py-6 flex-col items-center mx-auto">
+        <div className="p-4 text-black bg-lime-50" >
+          <div className=" px-6 py-6 flex-col">
             <h1 className="text-2xl">Parcelas Estero el Yali, Santo Domingo</h1>
           </div>
-          <div className="flex-col">
+          <div className="px-6 flex-col">
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
-                <Image src={culipran1} alt="Parcela Melipilla" />
+                <Image src={culipran1} alt="Parcela Melipilla"/>
               </SwiperSlide>
               <SwiperSlide>
                 <Image src={culipran2} alt="Parcela San antonio" />
@@ -57,8 +57,8 @@ export default function App() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="flex-col">
-            <ul class="list-disc p-4">
+          <div className="px-6 flex-col">
+            <ul class="list-disc p-4 px-6">
               <li>Sector: Agua Santa</li>
               <li>5.000 m²</li>
               <li>Rol propio</li>
