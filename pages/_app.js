@@ -11,6 +11,7 @@ export default function MyApp({ Component, pageProps }) {
     <Script id="Adsense-id" data-ad-client="ca-pub-1201976462089227"
             async strategy="afterInteractive"
             onError={ (e) => { console.error('Script failed to load', e) }}
+            crossorigin="anonymous"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     />
     <Head>
