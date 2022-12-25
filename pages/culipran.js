@@ -58,7 +58,7 @@ export default function Culipran() {
             </Swiper>
           </div>
           <div className="px-6 flex-col">
-            <ul class="list-disc p-4 px-6">
+            <ul className="list-disc p-4 px-6">
               <li>Sector: Agua Santa</li>
               <li>5.000 m²</li>
               <li>Rol propio</li>
